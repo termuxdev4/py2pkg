@@ -18,11 +18,11 @@ Py2pkg is a utility tool designed to convert Python scripts into installable Deb
 To install py2pkg, execute the following command in your Termux environment:  
 
 ```bash  
-wget https://raw.githubusercontent.com/termuxdev4/py2pkg/refs/heads/main/install.sh | bash  
+curl -sL https://raw.githubusercontent.com/termuxdev4/py2pkg/refs/heads/main/install.sh | bash
 ```  
 
 This installation script will:  
-1. Install `wget` if not already present  
+1. Install `curl` if not already present  
 2. Download the latest py2pkg script  
 3. Place it in your Termux binary directory (`/data/data/com.termux/files/usr/bin/`)  
 4. Set executable permissions  
